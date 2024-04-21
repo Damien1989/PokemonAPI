@@ -17,6 +17,8 @@ const changePokemon = async () => {
     console.log(response);
 
     image.src = response.sprites.front_default;
+    pokeNumber.textContent = response.id;
+    pokeName.textContent = response.name;
 };
 
 button.addEventListener("click", changePokemon);
