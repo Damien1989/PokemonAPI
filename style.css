@@ -21,12 +21,12 @@ body {
     background-color: white;
     border-radius: 20px;
     padding: 40px;
-    width: 60px;
+    width: 100px;
     max-width: 500px;
 }
 
 #image-wrapper {
-    width: 300px;
+    width: 400px;
 
 }
 
@@ -46,4 +46,13 @@ body {
 
 #name {
     text-transform: capitalize;
+}
+
+#button {
+    background-color: #fda085;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }

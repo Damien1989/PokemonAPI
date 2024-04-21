@@ -16,7 +16,7 @@ const changePokemon = async () => {
     let response = await data.json();
     console.log(response);
 
-    image.scr = response.sprites.front_default;
+    image.src = response.sprites.front_default;
 };
 
 button.addEventListener("click", changePokemon);
